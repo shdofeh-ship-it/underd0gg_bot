@@ -1,0 +1,12 @@
+
+*{box-sizing:border-box}
+body{margin:0;background:#050505;color:white;font-family:Arial,sans-serif}
+.page,.loader{min-height:100vh;padding:25px;background:radial-gradient(circle,#420000,#050505 55%)}
+.status{border:1px solid #ff2020;border-radius:25px;padding:18px;color:#fff;display:flex;gap:15px;justify-content:space-between}
+.status span{width:14px;height:14px;background:red;border-radius:50%;box-shadow:0 0 20px red}
+.status b{color:#ff5555}
+.logo{display:block;width:85%;max-width:500px;margin:80px auto 50px;filter:drop-shadow(0 0 20px red)}
+.loader{text-align:center;display:flex;flex-direction:column;justify-content:center}
+.loader img{margin:50px auto;width:80%}
+button,.menu a{display:block;width:100%;padding:22px;margin:15px 0;border-radius:18px;background:#111;border:1px solid #ff2020;color:white;font-size:20px;text-decoration:none;text-align:center}
+button:hover,.menu a:hover{box-shadow:0 0 25px red}
